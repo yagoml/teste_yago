@@ -1,0 +1,61 @@
+.container {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.cabecalho {
+    margin-bottom: 30px;
+}
+
+.lupa {
+    width: 15px;
+    height: 15px;
+}
+
+.container-tabela {
+    margin-top: 10px;
+}
+
+table {
+    text-align: left;
+    width: 100%;
+}
+
+table thead {
+    background: #ccc;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f4f4ff;
+}
+
+.barra-superior {
+    float: right;
+    display: flex;
+}
+
+#descricaoProduto,
+#descricaoCategoria {
+    width: 300px;
+}
+
+#categoriaProduto {
+    width: 150px;
+}
+
+.margT5 {
+    margin-top: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.loader {
+    width: 150px;
+    height: 100px;
+}
+
+.disabled {
+    pointer-events: none;
+}
